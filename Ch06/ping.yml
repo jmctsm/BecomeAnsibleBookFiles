@@ -2,7 +2,7 @@
 - hosts: all
   vars:
     ansible_user: ansible
-    ansible_password: WWTwwt1!
+    ansible_password: <<password>>
     ansible_ssh_common_args: "-o StrictHostKeyChecking=no"
 
   tasks:
